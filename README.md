@@ -1,2 +1,2 @@
 # cereopsis-coprimality
-Exercise to work out prime set problem
+Exercise to work out coprime set problem
