@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import Coprimal
 
 class CoprimeTests: XCTestCase {
     
