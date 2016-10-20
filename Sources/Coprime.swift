@@ -70,13 +70,13 @@ public struct Coprime {
 }
 
 extension Coprime: CustomPlaygroundQuickLookable {
-    var customPlaygroundQuickLook: PlaygroundQuickLook {
+    public var customPlaygroundQuickLook: PlaygroundQuickLook {
         return PlaygroundQuickLook.text(debugDescription)
     }
 }
 
 extension Coprime: CustomDebugStringConvertible {
-    var debugDescription: String {
+    public var debugDescription: String {
         return "(\(m), \(n))"
     }
 }
